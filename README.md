@@ -12,9 +12,9 @@ Caution: it is the user's responsibility to rotate the input data in such a way 
 
 # Example
 The following data is a readout of a living room using a very cheap 2D-Lidar module:
-![Input data](images/input_data.jpg?raw=true "Input data")
+![Input data](input_data.png?raw=true "Input data")
 
 After filtering, the plot looks the following:
-![Output data](images/input_data.jpg?raw=true "Output data")
+![Output data](output_data.png?raw=true "Output data")
 
 
