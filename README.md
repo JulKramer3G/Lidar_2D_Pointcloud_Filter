@@ -25,13 +25,14 @@ After filtering, the plot looks the following:
 ![Output data](output_data.png?raw=true "Output data")
 
 # Example project
-I build an example device to demonstrate how the algorithm behaves under real-world-conditions:
+I build an example device and .net Interface to demonstrate how the algorithm behaves under real-world-conditions:
 ![Device](PC_APPLICATION.png?raw=true "Example device")
 
 A ST VL53L1X Time-Of-Flight Sensor is the heart of this lidar implementation:
-![Sensor](Lidar konstruktion.png?raw=true "VL53L1X TOF sensor")
+![Sensor](Lidar_Front_.png?raw=true "VL53L1X TOF sensor")
 
-![Sensor](Lidar Draufsicht.png?raw=true "Hardware driver using a STM32 Discovery board")
+Project (uses UART to communicate with the host PC):
+![Sensor](Lidar_Top_.png?raw=true "Hardware driver using a STM32 Discovery board")
 
 
 
