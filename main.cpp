@@ -383,10 +383,10 @@ int main(int argc, const char * argv[]) {
     }
     Filter myFilter(20, 25); // Smoothing period 20, filter threshold 25
     
-    std::list<Point_Cartesian> filtered = myFilter.filterDataset(points);
+    std::list<Point_Polar> filtered = myFilter.filterDataset(points);
     
-    for(Point_Cartesian point : filtered) {
-        std::cout << "x: " << point.x << '\t' << "y: " << point.y << '\n';
+    for(Point_Polar point : filtered) {
+        std::cout << "[FILTERED:] distance: " << point.distance << '\t' << " angle: " << point.angle << '\n';
     }
     
     std::cout << "Done. thank you.\n";
