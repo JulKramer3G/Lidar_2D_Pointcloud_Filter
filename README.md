@@ -29,10 +29,10 @@ I build an example device and .net Interface to demonstrate how the algorithm be
 ![Device](PC_APPLICATION.png?raw=true "Example device")
 
 A ST VL53L1X Time-Of-Flight Sensor is the heart of this lidar implementation:
-![Sensor](Lidar_Front_.png?raw=true "VL53L1X TOF sensor")
+![Sensor](Lidar_Front.JPG?raw=true "VL53L1X TOF sensor")
 
 Project (uses UART to communicate with the host PC):
-![Sensor](Lidar_Top_.png?raw=true "Hardware driver using a STM32 Discovery board")
+![Sensor](Lidar_Top.JPG?raw=true "Hardware driver using a STM32 Discovery board")
 
 
 
